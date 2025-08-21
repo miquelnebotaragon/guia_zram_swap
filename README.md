@@ -59,10 +59,10 @@ Para evitar que el sistema intente montar la partición que más tarde dejaremos
 # 👌🏼 Recomendaciones finales
 
 + No necesitas partición _swap_ adicional en disco (en la presente guía acabamos de inhabilitarla o eliminiarla), salvo si quieres un respaldo extra (opcional).
-+ ❗ Atención: si quieres hibernar algún día, zRAM no sirve para hibernación, necesitarías swap en disco. Personalmente es una opción que no uso en absoluto
++ ❗ Atención: si quieres hibernar algún día, zRAM no sirve para hibernación, necesitarías swap en disco. Personalmente es una opción que no uso en absoluto y por eso he querido añadir a esta guía la opción de eliminar dicha partición.
 + Para sistemas modernos con mucha RAM, esto mejora rendimiento y reduce desgaste del disco (SSD/NVMe).
 
-# Checklist de verificación
+# ✅ Checklist de verificación
 - [x] `fstab` sin swap antigua
 - [x] `initramfs`regenerado
 - [x] Servicio zRAM activo (`sudo swapon --show`)
