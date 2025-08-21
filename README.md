@@ -2,6 +2,7 @@
 
 [![Website](https://img.shields.io/badge/Moodle-miquelnebot.eu-blue)](https://miquelnebot.eu)
 [![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
+![Banner Guía zRAM swap](./assets/zram_swap.png)
 
 # ⏮️ Antecedentes
 En un equipo con Debian 12 y el particionado por defecto del disco durante la instalación, nos encontramos con una partición _swap_ de 977 MB como partición de intercambio. Gracias a las bondades de _zRAM swap_ (mayor compresión, velocidad, cuidado de nuestros discos...) estamos en disposición de actualizar nuestro equipo.
